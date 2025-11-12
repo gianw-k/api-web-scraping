@@ -24,6 +24,8 @@ functions:
           integration: lambda
   scrape_table2:
     handler: scrap_table2.lambda_handler2  # Asegúrarse de que el nombre del archivo y la función coincidan
+    layers:
+      - arn:aws:lambda:us-east-1:496032492583:layer:chrome-for-selenium:1
     package:
       include:
         - ./**  # Incluir todo el contenido del directorio
