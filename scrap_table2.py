@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import boto3
 import uuid
 
-def lambda_handler(event, context):
+def lambda_handler2(event, context):
     # URL de la página web que contiene la tabla
     url = "https://ultimosismo.igp.gob.pe/ultimo-sismo/sismos-reportados"
 
