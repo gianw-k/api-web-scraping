@@ -1,0 +1,11 @@
+{
+  "name": "api-web-scraping",
+  "version": "1.0.0",
+  "description": "Web scraping API with Serverless Framework",
+  "main": "scrap_table.js",
+  "dependencies": {
+    "@sparticuz/chromium": "^121.0.0",
+    "puppeteer-core": "^21.6.1",
+    "aws-sdk": "^2.1500.0"
+  }
+}
